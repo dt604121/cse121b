@@ -1,2 +1,2 @@
 # cse121b
-Hunger Games CYOA!
+Hunger Games Choose Your Own Adventure Game!
