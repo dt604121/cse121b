@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+.button {
+    font-family: "Hunger Games", sans-serif;
+}
+.pic1 {
+    width: 60%;
+    margin-left: 275px;
+    padding: 30px;
+}
+.music {
+    width: 50%;
+    margin-left: 346px;
+    padding: 3px;
+}
+
+body {
+    letter-spacing: .5px;
+    font-size: 18px;
+    padding:  0px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(34, 63, 39);
+}
+
+.container {
+    width: 1500px;
+    color: white;
+    max-width: 80%;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid;
+    border-color: black;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: hsl(227, 45%, 49%);
+    border: 1px solid hsl(227, 45%, 49%);
+    border-radius: 5px;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+.button:hover {
+    background-color: #DA966A;
+    border: 1px solid #DA966A;
+    color: white;
+}
